@@ -29,18 +29,19 @@ var goi5 = {
 	img: 'traphatdo.jpg'
 }
 
-var goi = [goi1,goi2,goi3,goi4,goi5,goi5,goi4,goi3,goi2,goi1];
+var goi = [goi1, goi2, goi3, goi4, goi5, goi5, goi4, goi3, goi2, goi1];
 
 
 // Show product in list-product
 
 function changeListProduct (nameProduct) {
 	$('.noibat .title ul li a').removeClass('active');
+
 	$(nameProduct).addClass('active');
 	var idProduct = $(nameProduct).attr('id');
 	switch(idProduct) {
 		case 'goiquatang':
-		$('.breadcrumb .active-breadcrumb').text('Gói quà tặng')
+		$('.breadcrumb .active-breadcrumb').text('Gói quà tặng ')
 		break;
 		case 'che':
 		$('.breadcrumb .active-breadcrumb').text('Chè')
@@ -71,6 +72,7 @@ function changeListProduct (nameProduct) {
 		};
 	};
 }
+
 
 
 $(document).ready(function() {	
