@@ -107,11 +107,11 @@ header .sign-in{
 }
 .sign-in-com .user-name{
     float: right;
-    padding-top: 8px;
+    padding-top: 4px;
     color: white;
 }
 .sign-in-com{
-    padding: 7px 8px;
+    padding: 11px 8px;
 }
 header .sign-in button{
     background-color: white;
