@@ -9,10 +9,16 @@ footer{
 .top-footer ul >li{
     padding-bottom: 8px;
     padding-top: 8px;
+
+}
+.top-footer ul > li > a{
     color: #869099;
     font-weight: bold;
 }
-.top-footer ul >li:first-child{
+.top-footer ul > li:hover >a{
+    color: #ececec;
+}
+.top-footer ul >li:first-child > a{
     color: white;
 }
 .top-footer ul >li:last-child a{
@@ -30,7 +36,12 @@ footer{
     color: #869099;
     font-weight: bold;
 }
-
+.menu-bot ul > li:hover a{
+    color: #ececec;
+}
+.top-footer i{
+    padding-top: 5px;
+}
 .bot-footer{
     padding-top: 20px;
 }

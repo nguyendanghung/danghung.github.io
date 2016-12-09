@@ -28,7 +28,7 @@ a:hover{
 }
 .position-relative{
     position: relative;
-    top: 3285px;
+
 }
 
 /*--------------------header---------------------*/
@@ -115,6 +115,7 @@ header .navbar-inverse{
     background-color: rgba(255, 255, 255, 0.7);
 }
 .search-bar .icon-search{
+    cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
