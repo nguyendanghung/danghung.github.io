@@ -1,16 +1,16 @@
 $('.bxslider').bxSlider({
-    auto: true,
+    // auto: true,
     autoControls: true,
-    autoDelay: 5000
+    // autoDelay: 5000
 });
 $(document).ready(function () {
     $(window).scroll(function () {
         var scrollBot = $(document).height() - 2 * $(window).height() - $(window).scrollTop();
-        var top = $(window).scrollTop();
+        var top = $(".right-home").height();
         if (scrollBot > 0){
             $(".left-home").removeClass("position-relative").addClass("position-fixed");
         }else{
-            $(".left-home").addClass("position-relative");
+            $(".left-home").addClass("position-relative").removeClass("position.fixed");
         }
     });
 
