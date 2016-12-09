@@ -104,7 +104,17 @@ a:hover{
     background-color: white;
     padding: 7px 11px;
 }
-
+.sort-by .sort-text{
+    font-weight: normal;
+    color: #c8ccd1;
+    padding-top: 5px;
+}
+.sort-by .sort-bar{
+    width: 90px;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
 /*---------------main content-----------------*/
 .main-content section{
     margin: 20px 0;
@@ -136,6 +146,9 @@ a:hover{
     padding-left: 15px;
 }
 /*---------------product right------------------*/
+.product-right .dien-tich{
+    padding-bottom: 5px;
+}
 
 .view-detail{
     padding-top: 15px;
