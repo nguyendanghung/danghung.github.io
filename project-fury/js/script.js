@@ -5,13 +5,12 @@ $('.bxslider').bxSlider({
 });
 $(document).ready(function () {
     $(window).scroll(function () {
-        var scrollBot = $(document).height() - $(window).height() - $(window).scrollTop();
+        var scrollBot = $(document).height() - 2 * $(window).height() - $(window).scrollTop();
         var top = $(window).scrollTop();
-        if (scrollBot > 530){
-            $(".left-home").removeClass("position-relative").addClass("position-fixed").css("top", 0+'px')
-
+        if (scrollBot > 0){
+            $(".left-home").removeClass("position-relative").addClass("position-fixed");
         }else{
-            $(".left-home").addClass("position-relative").css("top", 3285+'px');
+            $(".left-home").addClass("position-relative");
         }
     });
 

@@ -24,10 +24,13 @@ a:hover{
 }
 .position-fixed{
     position: fixed;
+    top:0;
 }
 .position-relative{
     position: relative;
+    top: 3285px;
 }
+
 /*--------------------header---------------------*/
 header .navbar-inverse{
     margin-bottom: 0;
